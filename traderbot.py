@@ -150,9 +150,9 @@ async def on_message(message):
     if message.content.upper() =="PQP":
         await client.send_message(message.channel, "Language.")
     if message.content.upper() =="TRADER BUGO":
-        await client.send_message(message.channel, "chama o dave")
+        await client.send_message(message.channel, "chama o creme de la dev")
     if message.content.upper() =="TRADER MORREU":
-        await client.send_message(message.channel, "chama o dave")
+        await client.send_message(message.channel, "chama o creme de la dev")
     if message.content.upper()=="BAN":
         if message.author.id =="143607024087859200":
           await client.send_message(message.channel, "calaboca catito quem ter q ser banido é vc")

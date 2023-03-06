@@ -127,7 +127,7 @@ async def on_message(message):
         await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
     if message.content =="maranhão":
         await client.send_message(message.channel, "o cara zoa tf2 mas gosta de fantasia de cachorro")
-        if message.content =="maranhao":
+    if message.content =="maranhao":
         await client.send_message(message.channel, "o cara zoa tf2 mas gosta de fantasia de cachorro")
     if message.content.upper() =="SCP":
         await client.send_message(message.channel, "jogao")
@@ -139,7 +139,7 @@ async def on_message(message):
         await client.send_message(message.channel, "nossa toto africa mto bom")
     if message.content =="/play susto grito":
         await client.send_message(message.channel, "D:")
-    if message.content =="mungus" || "sus" || "among us" || "monguinho":
+    if message.content =="mungus" || message.content=="sus" || message.content=="among us" || message.content=="monguinho":
         await client.send_message(message.channel, "vsf guincho:")
     if message.content.upper() =="RIP":
         await client.send_message(message.channel, "=f pipi") 

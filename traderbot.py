@@ -73,6 +73,12 @@ async def on_message(message):
         await client.send_message(message.channel, "gru dudu e seu cu")
     if message.content =="vini":
         await client.send_message(message.channel, "outro niilista")
+    if message.content =="meg":
+        await client.send_message(message.channel, "ó o Bongo ae")
+    if message.content =="skil9":
+        await client.send_message(message.channel, "it is what it is")
+    if message.content =="ronaldo":
+        await client.send_message(message.channel, "brilha muito no curintia")
     if message.content =="dominions 4":
         await client.send_message(message.channel, "meu filho n para de falar dessa bosta")
     if message.content =="equador":
@@ -80,7 +86,7 @@ async def on_message(message):
     if message.content =="sdds da morena?":
         await client.send_message(message.channel, "demais")
     if message.content =="o creme e de la quem?":
-        await client.send_message(message.channel, "do ale porra")
+        await client.send_message(message.channel, "du ale")
     if message.content =="miguelvin ou melguel?":
         await client.send_message(message.channel, "<@%s> precisa de alguém rápido ou forte?" % (userID))
     if message.content =="forte":
@@ -92,9 +98,11 @@ async def on_message(message):
     if message.content =="sente sdds do catito?":
         await client.send_message(message.channel, "o do arqui ou o flappy?")
     if message.content =="arqui":
-        await client.send_message(message.channel, "espero q morra")
+        await client.send_message(message.channel, "sdds")
     if message.content =="flappy":
         await client.send_message(message.channel, "esse sim, jogo do ano")
+    if message.content =="lorax kart":
+        await client.send_message(message.channel, "duvido alguem bater o record do Rick: https://lorax-kart.netlify.app/")
     if message.content.upper() =="UE":
         await client.send_message(message.channel, "ue oq?")
     if message.content.upper() =="DORMAMMU":
@@ -117,7 +125,9 @@ async def on_message(message):
         await client.send_message(message.channel, "esse devia ta fznd LR mas fica o dia inteiro coçando o saco")
     if message.content =="ricardo":
         await client.send_message(message.channel, "faz uma webnamorada no python p mim pfvr")
-    if message.content =="luan hacker":
+    if message.content =="maranhão":
+        await client.send_message(message.channel, "o cara zoa tf2 mas gosta de fantasia de cachorro")
+        if message.content =="maranhao":
         await client.send_message(message.channel, "o cara zoa tf2 mas gosta de fantasia de cachorro")
     if message.content.upper() =="SCP":
         await client.send_message(message.channel, "jogao")
@@ -125,12 +135,12 @@ async def on_message(message):
         await client.send_message(message.channel, "n sei to procurando")
     if message.content =="bolinho tetinhas":
         await client.send_message(message.channel, "esse foi feito na unha")
-    if message.content =="péter":
-        await client.send_message(message.channel, ":moyai:")
-    if message.content =="peter":
-        await client.send_message(message.channel, ":moyai:")
-    if message.content =="=m p toto africa":
+    if message.content =="/play toto africa":
         await client.send_message(message.channel, "nossa toto africa mto bom")
+    if message.content =="/play susto grito":
+        await client.send_message(message.channel, "D:")
+    if message.content =="mungus" || "sus" || "among us" || "monguinho":
+        await client.send_message(message.channel, "vsf guincho:")
     if message.content.upper() =="RIP":
         await client.send_message(message.channel, "=f pipi") 
     if message.content.upper() =="EU SOQUEI UM HATER NO SHOPPING":

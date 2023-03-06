@@ -59,6 +59,8 @@ async def on_message(message):
         await client.send_message(message.channel, "<@%s> eae bro" % (userID))
     if message.content =="catito":
         await client.send_message(message.channel, "ah n")
+    if message.content =="que":
+        await client.send_message(message.channel, "jo")
     if message.content =="trader":
         await client.send_message(message.channel, "fala")
     if message.content.upper() =="PO":
